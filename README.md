@@ -53,8 +53,5 @@ The dataset used in this analysis includes the following columns:
 - **Cluster Distribution by Education Level**:
   - A count plot showing how different education levels are represented in each customer cluster.
 
-These visualizations provide a comprehensive view of customer behavior, aiding in the development of targeted marketing strategies and personalized recommendations.
 
 
-   ```bash
-   git clone https://github.com/your-username/behavior-analysis.git
