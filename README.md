@@ -55,10 +55,6 @@ The dataset used in this analysis includes the following columns:
 
 These visualizations provide a comprehensive view of customer behavior, aiding in the development of targeted marketing strategies and personalized recommendations.
 
-## Usage
 
-To reproduce the analysis, follow these steps:
-
-1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/behavior-analysis.git
