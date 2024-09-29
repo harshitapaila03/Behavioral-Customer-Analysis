@@ -3,11 +3,11 @@
 
 ## Introduction
 
-The "Behaviour Analysis and Recommendation System" project aims to explore and understand customer behavior by analyzing various purchasing patterns, demographic information, and engagement metrics. The project also includes building a recommendation system to suggest products to customers based on their preferences and behaviors.
+The "Behaviour Analysis and Recommendation System" project aims to explore and understand customer behavior by analyzing various purchasing patterns, demographic information, and engagement metrics. The project also includes building a comprehensive recommendation system to suggest products to customers based on their preferences and behaviors.
 
 ## Project Overview
 
-The analysis involves preprocessing and transforming a marketing campaign dataset to extract meaningful features, followed by clustering and association rule mining to uncover hidden patterns and relationships among customer activities. Additionally, recommendation systems are implemented using both content-based and collaborative filtering approaches to provide personalized product suggestions.
+The analysis involves preprocessing and transforming a marketing campaign dataset to extract meaningful features, followed by clustering and association rule mining to uncover hidden patterns and relationships among customer activities. Additionally, the project implements a hybrid recommendation system combining content-based and collaborative filtering approaches to provide personalized product suggestions.
 
 ## Features
 
@@ -20,26 +20,19 @@ The analysis involves preprocessing and transforming a marketing campaign datase
     - Constructs a recommendation system using TF-IDF vectorization of product features.
     - Implements a function `get_content_based_recommendations` that takes a product ID and returns the top N similar products based on content similarity.
   - **Collaborative Filtering:**
-    - Uses the Surprise library to implement collaborative filtering using the SVD algorithm.
+    - Utilizes the Surprise library to implement collaborative filtering using the SVD algorithm.
     - The function `get_collaborative_filtering_recommendations` generates recommendations based on user ratings.
-  - **Hybrid Recommendation Function (to be implemented):**
-    - A combined approach leveraging both content-based and collaborative filtering for better recommendation accuracy.
-  
-## Suggested Modifications and Insights
-
-1. **Implement Hybrid Recommendation:**
-   - Define a function `get_hybrid_recommendations` that combines both content-based and collaborative filtering recommendations to provide more accurate suggestions.
-
-2. **Performance Evaluation:**
-   - Evaluate the performance of both content-based and collaborative filtering models using appropriate metrics such as RMSE (Root Mean Squared Error) and MAE (Mean Absolute Error).
-
-3. **Visualization of Recommendations:**
-   - Visualize the similarities between products using heatmaps to understand product relations.
-   - Plot the distribution of user ratings to analyze user engagement.
-
-4. **User and Product Segmentation:**
-   - Cluster users based on their rating behavior to identify different user segments.
-   - Perform a similar analysis for products based on content features to discover product groupings.
+  - **Hybrid Recommendation System:**
+    - Combines both content-based and collaborative filtering approaches to enhance recommendation accuracy.
+    - The function `get_hybrid_recommendations` provides a comprehensive recommendation list by integrating content similarities and user preferences.
+- **Performance Evaluation:**
+  - Evaluates the performance of both content-based and collaborative filtering models using metrics such as RMSE (Root Mean Squared Error) and MAE (Mean Absolute Error).
+- **Visualization of Recommendations:**
+  - Visualizes product similarities using heatmaps to understand product relations.
+  - Plots the distribution of user ratings to analyze user engagement.
+- **User and Product Segmentation:**
+  - Clusters users based on their rating behavior to identify different user segments.
+  - Analyzes product segments based on content features to discover product groupings.
 
 ## Dataset
 
@@ -76,12 +69,4 @@ The dataset used in this analysis consists of 29 columns and 2240 entries. Below
 4. **Association Rules Visualization:** 
    A network graph illustrating the association rules mined from customer behavior data.
 
-5. **Recommendation Visualization:**
-   - Heatmaps visualizing product similarities for content-based recommendations.
-   - Distribution plots for user ratings and recommendation accuracy.
-
-## Usage
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/behaviour-analysis.git
+5. **
